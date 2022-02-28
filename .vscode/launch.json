@@ -10,6 +10,15 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "xetra_etl_run",
+            "type": "python",
+            "python.pythonPath": "C:/Users/Lenovo/.virtualenvs/xetra_mona-y2fL1YVb/Scripts/python.exe",
+            "request": "launch",
+            "program": "C:/xetra_project/xetra_mona/run.py",
+            "console": "integratedTerminal",
+            "args": ["C:/xetra_project/xetra_mona/configs/xetra_report1_config.yaml"]
         }
     ]
 }
